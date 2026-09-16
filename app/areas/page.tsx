@@ -5,6 +5,7 @@ import CTAButtons from '@/components/CTAButtons'
 import RelatedServices from '@/components/RelatedServices'
 import { BUSINESS, SERVICE_AREAS, SITE_URL } from '@/lib/business'
 import { SERVICES } from '@/lib/services'
+import { AREA_PAGES } from '@/lib/areas'
 import { breadcrumbSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
@@ -70,23 +71,54 @@ export default function AreasPage() {
         </div>
       </div>
 
-      {/* Areas grid */}
+      {/* Featured area landing pages */}
       <section className="py-12 md:py-16 bg-[#0D0D0D] border-y border-zinc-900" aria-labelledby="areas-grid-heading">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 id="areas-grid-heading" className="text-2xl md:text-3xl font-black text-white font-display mb-8">
+          <h2 id="areas-grid-heading" className="text-2xl md:text-3xl font-black text-white font-display mb-3">
             Areas We Cover
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-            {SERVICE_AREAS.map((area) => (
-              <div
-                key={area}
-                className="flex items-center gap-2 px-3 py-3 bg-[#111111] border border-zinc-800 rounded-lg hover:border-zinc-700 transition-colors"
+          <p className="text-zinc-500 text-sm mb-8">Select your area for dedicated local service information.</p>
+
+          {/* Linked area pages */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+            {AREA_PAGES.map((area) => (
+              <Link
+                key={area.slug}
+                href={`/areas/${area.slug}/`}
+                className="group flex items-start gap-3 p-4 bg-[#111111] border border-zinc-800 rounded-xl hover:border-brand-gold/40 hover:bg-[#161616] transition-all"
               >
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />
-                <span className="text-zinc-300 text-sm">{area}</span>
-              </div>
+                <div className="w-8 h-8 rounded-lg bg-brand-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-brand-gold/20 transition-colors">
+                  <svg className="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <div className="min-w-0">
+                  <p className="text-white font-semibold text-sm group-hover:text-brand-gold transition-colors font-display">
+                    {area.name}
+                  </p>
+                  <p className="text-zinc-500 text-xs mt-0.5">{area.district}</p>
+                </div>
+                <svg className="w-4 h-4 text-zinc-700 group-hover:text-brand-gold ml-auto flex-shrink-0 transition-colors mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             ))}
           </div>
+
+          {/* All areas list */}
+          <details className="group">
+            <summary className="cursor-pointer text-zinc-500 text-sm hover:text-brand-gold transition-colors select-none mb-4">
+              View all {SERVICE_AREAS.length} covered areas ▾
+            </summary>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+              {SERVICE_AREAS.map((area) => (
+                <div key={area} className="flex items-center gap-2 px-3 py-3 bg-[#111111] border border-zinc-800 rounded-lg">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />
+                  <span className="text-zinc-300 text-sm">{area}</span>
+                </div>
+              ))}
+            </div>
+          </details>
         </div>
       </section>
 
