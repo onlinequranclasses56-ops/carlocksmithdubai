@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-gold: #C9A84C;
+    --color-gold-light: #D4AF37;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #0A0A0A;
+    color: #F5F5F5;
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-outfit), var(--font-inter), system-ui, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Focus styles for accessibility */
+  :focus-visible {
+    outline: 2px solid #C9A84C;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* Gold divider line */
+  .gold-divider {
+    @apply w-12 h-0.5 bg-brand-gold;
+  }
+
+  /* Gold gradient text */
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #C9A84C 50%, #A07828 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Section padding */
+  .section-pad {
+    @apply py-16 md:py-24;
+  }
+
+  /* Container */
+  .container-base {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Card style */
+  .card {
+    @apply bg-[#111111] border border-zinc-800 rounded-xl;
+  }
+
+  /* Premium button base */
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-brand-gold text-black font-semibold rounded-lg transition-all duration-200 hover:bg-brand-gold-light hover:shadow-lg hover:shadow-brand-gold/20 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 border border-zinc-700 text-white font-medium rounded-lg transition-all duration-200 hover:border-brand-gold hover:text-brand-gold active:scale-95;
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-semibold rounded-lg transition-all duration-200 hover:bg-green-500 hover:shadow-lg hover:shadow-green-600/20 active:scale-95;
+  }
+
+  .btn-phone {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-brand-gold text-zinc-950 font-semibold rounded-lg transition-all duration-200 hover:bg-brand-gold-light hover:shadow-lg hover:shadow-brand-gold/20 active:scale-95;
+  }
+}
+
+@layer utilities {
+  /* Custom scrollbar */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #111111;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #C9A84C;
+    border-radius: 2px;
+  }
+}

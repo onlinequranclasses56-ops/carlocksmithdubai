@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Car Locksmith Dubai</ShortName>
+  <Description>Search Car Locksmith Dubai — car key service, repair and programming in Dubai</Description>
+  <Tags>car locksmith dubai car key service repair</Tags>
+  <Contact>info@carlocksmithdubai.com</Contact>
+  <Url type="text/html" method="get" template="https://carlocksmithdubai.com/?q={searchTerms}"/>
+  <Image height="16" width="16" type="image/x-icon">https://carlocksmithdubai.com/favicon.ico</Image>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <Language>en-AE</Language>
+  <LongName>Car Locksmith Dubai — Car Key Service</LongName>
+</OpenSearchDescription>

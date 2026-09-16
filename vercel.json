@@ -1,0 +1,50 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "regions": ["fra1"],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/car-key-service",
+      "destination": "/car-key-service-dubai/",
+      "permanent": true
+    },
+    {
+      "source": "/car-key-repair",
+      "destination": "/car-key-repair-dubai/",
+      "permanent": true
+    },
+    {
+      "source": "/car-key-replacement",
+      "destination": "/car-key-replacement-dubai/",
+      "permanent": true
+    },
+    {
+      "source": "/car-key-programming",
+      "destination": "/car-key-programming-dubai/",
+      "permanent": true
+    },
+    {
+      "source": "/lost-car-keys",
+      "destination": "/lost-car-keys-dubai/",
+      "permanent": true
+    }
+  ]
+}
