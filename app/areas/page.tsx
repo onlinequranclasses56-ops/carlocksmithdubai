@@ -9,13 +9,13 @@ import { AREA_PAGES } from '@/lib/areas'
 import { breadcrumbSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Car Locksmith Service Areas Dubai | All Neighbourhoods',
+  title: 'Car Locksmith Service Areas Dubai | Call +971 52 642 6161',
   description:
-    'Car Locksmith Dubai provides mobile car key service across 30+ Dubai areas including Downtown, Marina, Jumeirah, Business Bay, Palm Jumeirah and more. Call +971 52 642 6161.',
+    'Call +971 52 642 6161 — Mobile car locksmith across 30+ Dubai areas. Downtown, Marina, Jumeirah, Business Bay, Palm Jumeirah & more. We come to you 24/7.',
   alternates: { canonical: SITE_URL + '/areas/' },
   openGraph: {
-    title: 'Car Locksmith Service Areas Dubai | All Neighbourhoods',
-    description: 'Mobile car key service across 30+ Dubai areas. Call +971 52 642 6161.',
+    title: 'Car Locksmith Service Areas Dubai | Call +971 52 642 6161',
+    description: 'Call +971 52 642 6161 — Mobile car key service across 30+ Dubai areas. We come to you 24/7.',
     url: SITE_URL + '/areas/',
     type: 'website',
   },

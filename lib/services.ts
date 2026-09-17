@@ -23,9 +23,9 @@ export const SERVICES: Service[] = [
       'Our mobile car key service covers everything from basic key cutting and duplication to advanced transponder programming. We come to your location anywhere in Dubai — no need to call a tow truck or visit a dealership.',
     icon: 'key',
     href: '/car-key-service-dubai/',
-    metaTitle: 'Car Key Service Dubai | Cutting, Duplication & Programming',
+    metaTitle: 'Car Key Service Dubai | Call +971 52 642 6161',
     metaDescription:
-      'Professional car key service in Dubai. Key cutting, duplication and programming for all makes and models. Mobile service — we come to you. Call +971 52 642 6161.',
+      'Call +971 52 642 6161 — Car key cutting, duplication & programming in Dubai. Mobile service to your location. All vehicle makes. Available now.',
     features: [
       'Key cutting for all vehicle makes and models',
       'Spare key duplication',
@@ -62,9 +62,9 @@ export const SERVICES: Service[] = [
       'A damaged car key does not always mean a full replacement. Our technicians can often repair broken key shells, fix unresponsive remote buttons, replace worn key batteries, and troubleshoot faulty transponder chips — saving you time and cost.',
     icon: 'wrench',
     href: '/car-key-repair-dubai/',
-    metaTitle: 'Car Key Repair Dubai | Fix Broken, Damaged & Faulty Keys',
+    metaTitle: 'Car Key Repair Dubai | Call +971 52 642 6161',
     metaDescription:
-      'Car key repair in Dubai. Fix broken key shells, faulty remote buttons, worn transponder chips and more. Mobile service. Call +971 52 642 6161.',
+      'Call +971 52 642 6161 — Broken key shell, faulty remote, worn transponder? Mobile car key repair across all Dubai areas. Fast on-site fix.',
     features: [
       'Broken key shell replacement',
       'Key blade repair or replacement',
@@ -101,9 +101,9 @@ export const SERVICES: Service[] = [
       'Lost your car key or need a complete replacement? Our mobile technicians carry the equipment to cut and program new keys on-site for most vehicles. We will verify your ownership documents and complete the job at your location.',
     icon: 'refresh',
     href: '/car-key-replacement-dubai/',
-    metaTitle: 'Car Key Replacement Dubai | Lost & Damaged Key Solutions',
+    metaTitle: 'Car Key Replacement Dubai | Call +971 52 642 6161',
     metaDescription:
-      'Car key replacement in Dubai for lost, broken or stolen keys. New keys cut and programmed on-site. Mobile service all areas. Call +971 52 642 6161.',
+      'Call +971 52 642 6161 — Lost or broken car key? New key cut & programmed on-site in Dubai. No towing. All vehicle types. Mobile service 24/7.',
     features: [
       'New key cutting and programming',
       'Replacement for lost or stolen keys',
@@ -140,9 +140,9 @@ export const SERVICES: Service[] = [
       'Modern car keys contain electronic chips that must be programmed to match your vehicle\'s immobiliser. Our technicians carry professional-grade diagnostic and programming equipment to handle transponder keys, smart proximity keys, remote fobs, and push-start systems for most vehicle brands.',
     icon: 'chip',
     href: '/car-key-programming-dubai/',
-    metaTitle: 'Car Key Programming Dubai | Transponder & Smart Key Experts',
+    metaTitle: 'Car Key Programming Dubai | Call +971 52 642 6161',
     metaDescription:
-      'Professional car key programming in Dubai. Transponder, smart key and remote fob programming for all brands. Mobile service. Call +971 52 642 6161.',
+      'Call +971 52 642 6161 — Transponder, smart key & remote fob programming in Dubai. Dealer-level tools, mobile service. All major brands covered.',
     features: [
       'Transponder chip programming',
       'Smart key and proximity key programming',
@@ -179,9 +179,9 @@ export const SERVICES: Service[] = [
       'Losing your car keys in Dubai is stressful, but our mobile team can reach you wherever you are and provide a complete solution — from cutting a new key to programming it to your vehicle. We carry the equipment to help with most vehicle types without requiring a tow.',
     icon: 'search',
     href: '/lost-car-keys-dubai/',
-    metaTitle: 'Lost Car Keys Dubai | Emergency Key Replacement Service',
+    metaTitle: 'Lost Car Keys Dubai | Call +971 52 642 6161 Now',
     metaDescription:
-      'Lost your car keys in Dubai? Our mobile technicians come to you, verify ownership, and cut and program a new key on-site. Call +971 52 642 6161.',
+      'Lost your car keys in Dubai? Call +971 52 642 6161 — mobile technician comes to you, verifies ownership & cuts new key on-site. No towing needed.',
     features: [
       'Emergency response across all Dubai areas',
       'New key cut and programmed on-site',
@@ -218,9 +218,9 @@ export const SERVICES: Service[] = [
       'Car key duplication in Dubai means having an exact working copy of your existing key cut and programmed on-site. Whether you need a spare car key, a duplicate for a family member, or a backup before your original wears out, our mobile technicians handle all key types including transponder, smart key and remote fobs.',
     icon: 'copy',
     href: '/car-key-duplication-dubai/',
-    metaTitle: 'Car Key Duplication Dubai | Spare Key Cutting Near Me',
+    metaTitle: 'Car Key Duplication Dubai | Call +971 52 642 6161',
     metaDescription:
-      'Car key duplication in Dubai. Spare key cutting for all vehicle types — transponder, smart key and remote fob. Mobile service. Call +971 52 642 6161.',
+      'Call +971 52 642 6161 — Spare key cutting & duplication in Dubai. Transponder, smart key & remote fob. Cut from original or VIN. Mobile service.',
     features: [
       'Spare key duplication from original or VIN',
       'Transponder chip key duplication',
@@ -257,9 +257,9 @@ export const SERVICES: Service[] = [
       'A car lockout can happen to anyone in Dubai — keys locked inside, a broken lock, or a key that will not turn. Our mobile car unlock service operates across all Dubai areas. We use professional tools to safely open your vehicle without damage, then address the underlying issue whether it is a lockout, a broken key, or a faulty lock cylinder.',
     icon: 'unlock',
     href: '/car-unlock-service-dubai/',
-    metaTitle: 'Car Unlock Service Dubai | Locked Out of Car Near Me',
+    metaTitle: 'Car Unlock Service Dubai | Call +971 52 642 6161',
     metaDescription:
-      'Locked out of your car in Dubai? Mobile car unlock service across all areas. Safe, damage-free entry. Call +971 52 642 6161 — 24/7.',
+      'Locked out of your car in Dubai? Call +971 52 642 6161 — mobile car unlock, damage-free entry across all Dubai areas. Available 24/7.',
     features: [
       'Damage-free vehicle entry',
       'Keys locked inside car',
@@ -296,9 +296,9 @@ export const SERVICES: Service[] = [
       'A dead or weak car key battery is one of the most common and easily fixed car key problems. Most key fobs use a CR2032, CR2025 or CR2016 battery. Our mobile technicians replace key fob batteries on-site across Dubai, restoring full remote range and responsiveness — usually in under 10 minutes.',
     icon: 'battery',
     href: '/car-key-battery-dubai/',
-    metaTitle: 'Car Key Battery Replacement Dubai | Key Fob Battery Near Me',
+    metaTitle: 'Car Key Battery Replacement Dubai | Call +971 52 642 6161',
     metaDescription:
-      'Car key fob battery replacement in Dubai. Dead or weak remote? We replace CR2032/CR2025 batteries on-site. Mobile service all areas. Call +971 52 642 6161.',
+      'Call +971 52 642 6161 — Dead car key fob battery? CR2032/CR2025 replaced on-site in Dubai. Signal tested after. Mobile service all areas.',
     features: [
       'Key fob battery replacement on-site',
       'All CR battery types: CR2032, CR2025, CR2016',

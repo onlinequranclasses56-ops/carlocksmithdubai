@@ -7,13 +7,13 @@ import { BLOG_POSTS } from '@/lib/blogPosts'
 import { breadcrumbSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Car Key Tips & Guides | Car Locksmith Dubai Blog',
+  title: 'Car Key Tips & Guides Dubai | +971 52 642 6161',
   description:
-    'Practical guides about car keys in Dubai — what to do when you lose your keys, key types explained, repair vs replacement, and documents needed in Dubai.',
+    'Call +971 52 642 6161 — Practical car key guides for Dubai drivers. Lost keys, key types, repair vs replacement, documents needed. Mobile locksmith available now.',
   alternates: { canonical: SITE_URL + '/blog/' },
   openGraph: {
-    title: 'Car Key Tips & Guides | Car Locksmith Dubai Blog',
-    description: 'Practical car key guides for Dubai drivers — lost keys, programming, repair vs replacement and more.',
+    title: 'Car Key Tips & Guides Dubai | +971 52 642 6161',
+    description: 'Call +971 52 642 6161 — Car key guides for Dubai drivers. Lost keys, programming, repair vs replacement and more. Mobile locksmith available now.',
     url: SITE_URL + '/blog/',
     type: 'website',
   },
