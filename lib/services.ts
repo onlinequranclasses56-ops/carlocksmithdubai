@@ -208,6 +208,123 @@ export const SERVICES: Service[] = [
       },
     ],
   },
+  {
+    slug: 'car-key-duplication-dubai',
+    title: 'Car Key Duplication Dubai',
+    shortTitle: 'Key Duplication',
+    description:
+      'Spare key cutting and duplication for all vehicle types in Dubai. Copy your existing key or have a new one cut from the VIN.',
+    longDescription:
+      'Car key duplication in Dubai means having an exact working copy of your existing key cut and programmed on-site. Whether you need a spare car key, a duplicate for a family member, or a backup before your original wears out, our mobile technicians handle all key types including transponder, smart key and remote fobs.',
+    icon: 'copy',
+    href: '/car-key-duplication-dubai/',
+    metaTitle: 'Car Key Duplication Dubai | Spare Key Cutting Near Me',
+    metaDescription:
+      'Car key duplication in Dubai. Spare key cutting for all vehicle types — transponder, smart key and remote fob. Mobile service. Call +971 52 642 6161.',
+    features: [
+      'Spare key duplication from original or VIN',
+      'Transponder chip key duplication',
+      'Smart key and proximity key duplication',
+      'Remote key fob copy and programming',
+      'All major vehicle brands in UAE',
+      'Mobile service — we come to you',
+    ],
+    faq: [
+      {
+        question: 'Can you duplicate a car key in Dubai?',
+        answer:
+          'Yes. We duplicate car keys for all types — standard metal, transponder chip, remote fob, flip key and smart/proximity keys. The process involves cutting a new key blank and programming the electronic chip to match your vehicle.',
+      },
+      {
+        question: 'Can I get a duplicate key cut from the VIN number?',
+        answer:
+          'Yes. Using the vehicle identification number (VIN), we can cut a new key blade without needing the original as a template. This is useful if your original key is too worn to copy accurately.',
+      },
+      {
+        question: 'How much does car key duplication cost in Dubai?',
+        answer:
+          'The cost depends on the key type. Standard metal key duplication is the most affordable. Transponder key duplication (which requires chip programming) costs more. Smart key and proximity key duplication is the most complex. Contact us for a specific quote for your vehicle.',
+      },
+    ],
+  },
+  {
+    slug: 'car-unlock-service-dubai',
+    title: 'Car Unlock Service Dubai',
+    shortTitle: 'Car Unlock Service',
+    description:
+      'Locked out of your car in Dubai? Our mobile technicians unlock your vehicle safely on-site, with no damage to the door or lock.',
+    longDescription:
+      'A car lockout can happen to anyone in Dubai — keys locked inside, a broken lock, or a key that will not turn. Our mobile car unlock service operates across all Dubai areas. We use professional tools to safely open your vehicle without damage, then address the underlying issue whether it is a lockout, a broken key, or a faulty lock cylinder.',
+    icon: 'unlock',
+    href: '/car-unlock-service-dubai/',
+    metaTitle: 'Car Unlock Service Dubai | Locked Out of Car Near Me',
+    metaDescription:
+      'Locked out of your car in Dubai? Mobile car unlock service across all areas. Safe, damage-free entry. Call +971 52 642 6161 — 24/7.',
+    features: [
+      'Damage-free vehicle entry',
+      'Keys locked inside car',
+      'Broken key in lock',
+      'Faulty door lock cylinder',
+      'Mobile service across all Dubai areas',
+      '24/7 emergency availability',
+    ],
+    faq: [
+      {
+        question: 'What should I do if I am locked out of my car in Dubai?',
+        answer:
+          'Stay with the vehicle if it is safe to do so. Call a mobile car unlock service — a professional locksmith can open your car without causing any damage to the door or lock. Do not attempt to force the door or window open yourself.',
+      },
+      {
+        question: 'How long does a car unlock take in Dubai?',
+        answer:
+          'Most vehicle unlock jobs are completed in 15 to 30 minutes from arrival. Call +971 52 642 6161 and we will advise on the estimated response time for your specific location in Dubai.',
+      },
+      {
+        question: 'Will you damage my car to unlock it?',
+        answer:
+          'No. Professional locksmiths use specialised tools designed to open vehicle doors without causing scratches, dents or damage to the lock mechanism. This is standard practice and very different from forcing entry.',
+      },
+    ],
+  },
+  {
+    slug: 'car-key-battery-dubai',
+    title: 'Car Key Battery Replacement Dubai',
+    shortTitle: 'Key Battery Replacement',
+    description:
+      'Car key fob battery replacement in Dubai. Weak signal, unresponsive remote or dead key fob replaced with the correct CR battery on-site.',
+    longDescription:
+      'A dead or weak car key battery is one of the most common and easily fixed car key problems. Most key fobs use a CR2032, CR2025 or CR2016 battery. Our mobile technicians replace key fob batteries on-site across Dubai, restoring full remote range and responsiveness — usually in under 10 minutes.',
+    icon: 'battery',
+    href: '/car-key-battery-dubai/',
+    metaTitle: 'Car Key Battery Replacement Dubai | Key Fob Battery Near Me',
+    metaDescription:
+      'Car key fob battery replacement in Dubai. Dead or weak remote? We replace CR2032/CR2025 batteries on-site. Mobile service all areas. Call +971 52 642 6161.',
+    features: [
+      'Key fob battery replacement on-site',
+      'All CR battery types: CR2032, CR2025, CR2016',
+      'Remote key, flip key and smart key fobs',
+      'Signal range testing after replacement',
+      'Mobile service — we come to you',
+      'All major vehicle brands',
+    ],
+    faq: [
+      {
+        question: 'How do I know if my car key battery needs replacing?',
+        answer:
+          'Common signs include: the remote locking no longer works at normal range, the key fob is intermittent, or the car dashboard shows a "key battery low" warning. Some vehicles display this warning, others do not.',
+      },
+      {
+        question: 'What battery does a car key fob use?',
+        answer:
+          'Most car key fobs use CR2032, CR2025 or CR2016 lithium coin cell batteries. The correct type is printed inside the fob casing when you open it, or in your vehicle owner\'s manual.',
+      },
+      {
+        question: 'Can I replace my car key battery myself?',
+        answer:
+          'Yes for basic fobs — the casing usually pops open with a coin. However, if the fob has not been opened before, or if it is a smart key with a precision housing, it is easy to damage. We replace batteries on-site and confirm the signal range is restored before leaving.',
+      },
+    ],
+  },
 ]
 
 export function getServiceBySlug(slug: string): Service | undefined {

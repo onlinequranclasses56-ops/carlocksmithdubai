@@ -222,6 +222,114 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'car-key-replacement-cost-dubai',
+    title: 'Car Key Replacement Cost in Dubai: What to Expect',
+    excerpt: 'How much does car key replacement cost in Dubai? Standard keys, transponder keys, smart keys — full price guide for all types in the UAE.',
+    category: 'Pricing',
+    readTime: '4 min read',
+    publishDate: '2025-03-01',
+    author: 'Car Locksmith Dubai',
+    metaTitle: 'Car Key Replacement Cost Dubai 2025 | Price Guide All Key Types',
+    metaDescription: 'How much does car key replacement cost in Dubai? Standard keys cost less than transponder and smart keys. Full UAE price guide. Call +971 52 642 6161 for a specific quote.',
+    relatedSlugs: ['what-to-do-if-you-lose-car-keys-dubai', 'documents-needed-car-key-replacement-dubai'],
+    content: {
+      intro: 'Car key replacement cost in Dubai varies significantly depending on the type of key your vehicle uses. A basic metal key costs a fraction of what a smart proximity key costs — because smart keys require specialised programming equipment and more time on-site. Here is a practical breakdown of what to expect for each key type in the UAE.',
+      sections: [
+        {
+          heading: 'Standard Metal Key: Most Affordable',
+          body: 'A standard metal key with no electronic component is the cheapest type to replace. The locksmith only needs to cut a new blank to match your lock profile. This is fast (10 to 20 minutes) and low cost. Standard metal keys are found mainly on older vehicles pre-1998 and some basic models.',
+        },
+        {
+          heading: 'Transponder Key: Medium Cost',
+          body: 'Transponder keys contain an embedded microchip that must be programmed to your vehicle\'s immobiliser. The cost covers both the key cutting and the programming service. The process takes 30 to 45 minutes on-site. Transponder key replacement is required for most vehicles manufactured from the late 1990s onwards — Toyota, Nissan, Honda, Hyundai, Kia and most other common UAE brands use this type.',
+        },
+        {
+          heading: 'Remote Key Fob: Medium to High Cost',
+          body: 'Remote fobs add wireless central locking to the transponder key. The cost is higher than a basic transponder key because the fob itself is more expensive and the remote must be paired to your car\'s receiver module in addition to the transponder being programmed. Remote fob replacement takes 30 to 60 minutes.',
+        },
+        {
+          heading: 'Smart Key / Proximity Key: Highest Cost',
+          body: 'Smart keys and proximity fobs are the most expensive type to replace. They communicate wirelessly with multiple vehicle control units and require the most complex programming process. Smart keys are standard on most luxury vehicles and many modern mass-market cars. The process takes 45 to 90 minutes and requires dealer-grade equipment. The cost is still typically less than what a main UAE dealership would charge.',
+        },
+        {
+          heading: 'Is a Mobile Locksmith Cheaper Than a Dealership in Dubai?',
+          body: 'For transponder, remote fob and smart keys, a professional mobile locksmith is typically less expensive than a main dealership in Dubai. Dealerships charge a premium for key programming as a captive service — the same programming process takes longer to book, may require your car to be transported, and is billed at dealer labour rates. A mobile locksmith with the right equipment provides the same end result (a fully functioning key) without those overheads.',
+        },
+        {
+          heading: 'How to Get an Accurate Quote',
+          body: 'The most reliable way to get a specific price is to call +971 52 642 6161 and provide the vehicle make, model, year and key type. Car key replacement cost in Dubai is not a fixed rate — it depends on the specific vehicle and key type. We provide a clear quote before any work begins.',
+        },
+      ],
+      conclusion: 'Car key replacement in Dubai does not have to mean a dealership visit and a long wait. A mobile locksmith can replace and programme most key types on-site at your location. Call Car Locksmith Dubai on +971 52 642 6161 for a specific quote for your vehicle — no obligation.',
+    },
+    faqs: [
+      {
+        question: 'How much does a car key replacement cost in Dubai?',
+        answer: 'The cost depends on the key type. Standard metal keys are the least expensive. Transponder keys cost more due to chip programming. Smart and proximity keys are the most expensive. Call +971 52 642 6161 for a specific quote for your vehicle make, model and key type.',
+      },
+      {
+        question: 'How much should I pay for a replacement car key in Dubai?',
+        answer: 'For a fair comparison, get quotes from both a mobile locksmith and the main dealer for your vehicle. Mobile locksmiths with dealer-grade equipment typically cost less than dealerships for the same service. Ask for the total cost including programming before agreeing.',
+      },
+      {
+        question: 'Is it cheaper to replace a car key with a locksmith or dealer in Dubai?',
+        answer: 'A mobile locksmith is typically less expensive than a main dealer in Dubai for transponder, remote fob and smart key replacement. The programming equipment and end result are equivalent — the dealer charges a premium for the same service.',
+      },
+    ],
+  },
+  {
+    slug: 'car-key-vin-number-dubai',
+    title: 'Can I Order a Car Key Using My VIN Number in Dubai?',
+    excerpt: 'Yes — a professional locksmith can cut and programme a new car key from your VIN without needing the original. Here is exactly how it works in Dubai.',
+    category: 'Guide',
+    readTime: '4 min read',
+    publishDate: '2025-03-10',
+    author: 'Car Locksmith Dubai',
+    metaTitle: 'Order Car Key from VIN Number Dubai | Can I Get Key Cut from VIN?',
+    metaDescription: 'Yes, a car key can be cut from your VIN number in Dubai without the original. Locksmith uses VIN to determine key code. Emirates ID and Mulkiya required. +971 52 642 6161.',
+    relatedSlugs: ['what-to-do-if-you-lose-car-keys-dubai', 'documents-needed-car-key-replacement-dubai'],
+    content: {
+      intro: 'One of the most common questions people ask when they have lost their car keys is: can I get a new key made just from my VIN number? The answer is yes — a professional automotive locksmith can cut a new key blade using your vehicle identification number, without needing the original key at all.',
+      sections: [
+        {
+          heading: 'What is a VIN Number and Why Does It Matter for Keys?',
+          body: 'The Vehicle Identification Number (VIN) is a 17-character code unique to every vehicle. It is stamped on the chassis, visible through the windscreen on the dashboard, and printed on your registration card (Mulkiya). The VIN encodes the vehicle\'s manufacturer, model, year, and factory specifications — including a key code that determines the profile (cuts) of the physical key blade. A locksmith with access to key code databases can look up the VIN, retrieve the key code, and cut a new blade to exact specification.',
+        },
+        {
+          heading: 'Can I Find My Key Code from My VIN?',
+          body: 'Yes. Professional automotive locksmiths use manufacturer-linked key code databases to cross-reference the VIN and retrieve the key cut code. This is standard practice in the industry. You do not need to contact the manufacturer or visit a dealership — the locksmith has direct access to these databases.',
+        },
+        {
+          heading: 'Can I Order a Key Fob by VIN Number?',
+          body: 'Cutting the physical blade from the VIN is straightforward. Programming the electronic component (transponder chip, remote fob or smart key) to your immobiliser requires the same dealer-grade programming tools a locksmith would use for any key programming job. The VIN is used to pull the key code for the blade; the programming connects the chip to your specific vehicle\'s immobiliser system. Both parts of the job can be done on-site in Dubai.',
+        },
+        {
+          heading: 'What Documents Do I Need?',
+          body: 'Because a VIN-based key can be made without the original key present, ownership verification is strictly required. You need your Emirates ID (or valid passport) and your vehicle registration card (Mulkiya). The registered owner\'s name on the Mulkiya must match the name on the ID presented. You must also be physically present at the vehicle.',
+        },
+        {
+          heading: 'How Long Does a VIN Key Take in Dubai?',
+          body: 'Once ownership is verified, the process is the same as any other key replacement. Cutting a standard metal blade from the VIN takes 15 to 30 minutes. Adding transponder programming adds 15 to 30 minutes. Smart key programming from a VIN-based cut takes 45 to 90 minutes in total. Our mobile technicians carry the equipment for all of these on-site in Dubai.',
+        },
+      ],
+      conclusion: 'If you have lost your keys and have your VIN, Emirates ID and Mulkiya, a mobile locksmith in Dubai can have a new key cut and programmed at your location. Call Car Locksmith Dubai on +971 52 642 6161 to confirm compatibility with your specific vehicle.',
+    },
+    faqs: [
+      {
+        question: 'Can I order a new car key with my VIN number in Dubai?',
+        answer: 'Yes. A professional automotive locksmith can cut a new key blade using the key code derived from your VIN number. The key is then programmed to your immobiliser on-site. Emirates ID and Mulkiya are required to verify ownership.',
+      },
+      {
+        question: 'Can I find my key code from my VIN number?',
+        answer: 'Yes. Locksmiths use manufacturer-linked key code databases to look up the VIN and retrieve the key cut profile. This determines the blade cuts without needing the original key as a template.',
+      },
+      {
+        question: 'Can a spare key be made from the VIN number?',
+        answer: 'Yes. Both the physical blade and the electronic programming can be completed using the VIN and dealer-grade programming equipment. You do not need the original key to get a spare made in Dubai.',
+      },
+    ],
+  },
 ]
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
