@@ -160,6 +160,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Sitelinks searchbox hint */}
         <link rel="search" type="application/opensearchdescription+xml" title="Car Locksmith Dubai" href="/opensearch.xml" />
 
+        {/* RSS feed — helps Google and AI crawlers discover fresh content */}
+        <link rel="alternate" type="application/rss+xml" title="Car Locksmith Dubai Blog" href="/feed.xml" />
+
+        {/* IndexNow key verification */}
+        <meta name="indexnow-key" content="f8d3e2a1b5c4f9e6d2a3b8c5f1e4d7a0" />
+
         {/* Core schema — injected on every page */}
         <script
           type="application/ld+json"
